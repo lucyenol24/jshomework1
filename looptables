@@ -1,0 +1,60 @@
+**LOOP TABLES**
+
+1) Create a loop table show the values for loop count, value of x, and output during each iteration.
+
+for (var x=0; x <=17; x = x + 2){
+  console.log(2*x+7);
+}
+
+Loop Count     Value of X     Output
+1              0              7
+2              2              11
+3              4              15
+4              6              19
+
+SHOWING MY WORK:
+x = 0
+2 * 0 + 7
+2 * 0 = 0
+0 + 7
+=7
+
+0 + 2 = 2
+x = 2
+2 * 2 + 7
+2 * 2 = 4
+4 + 7
+= 11
+
+2 + 2 = 4
+x = 4
+2 * 4 + 7
+2 * 4 = 8
+8 + 7
+= 15
+
+4 + 2 = 6
+x = 6
+2 * 6 + 7
+2 * 6 = 12
+12 + 7
+= 19
+end of loop because 19 < 17 is false.
+
+
+2) Create a loop table and show the values for loop count, value of index, value of s1, value of s2, and output during each iteration.
+
+var alpha = 'mpeuorwr';
+var s1 = '';
+var s2 = '';
+
+for (var index = 0; index < alpha.length; index++){
+  if (index % 2 == 0) {
+    s1 = s1 + alpha.substr(index,1);
+  } else {
+    s2= s2 + alpha.substr (index, 1);
+  }
+}
+
+console.log(s1+s2);
+
