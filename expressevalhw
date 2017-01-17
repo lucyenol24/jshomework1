@@ -1,0 +1,56 @@
+Homework:
+
+**EXPRESSION EVALUATION AND PRECEDENCE**
+
+5 > 4 && false
+true && false
+false
+
+_____
+
+true && 5 * 2 > 3 + 3 * 2
+true && 10 > 3 + 3 + 6
+true && 10 > 3 + 6
+true && 10 > 9
+true && true
+true
+
+_____
+
+true && 5*2 > (3+3) * 2
+true && 5*2 > 6 * 2
+true && 10 > 12
+true && false
+false
+
+_____
+
+true && true || false
+true || false
+true
+
+_____
+
+true && (true || false)
+true && (true)
+true
+
+_____
+
+false && false || true
+false || true
+true
+
+_____
+
+false && (false || true)
+false && (true)
+false
+
+_____
+
+(false && false) && false && (true || false) || false
+(false) && false && (true) || false
+false && true
+false
+
