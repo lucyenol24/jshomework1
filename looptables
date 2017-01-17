@@ -58,3 +58,32 @@ for (var index = 0; index < alpha.length; index++){
 
 console.log(s1+s2);
 
+
+Loop Count     Index     S1     S2     Output
+1              0         m      ''     _m
+2              1         m      _p     m_p  (work shown for modulo calcs at bottom)
+3              2         _me    _p     _me_p
+4              3         _me    _pu    _me_pu
+5              4         _meo   _pu    _meo_pu
+6              5         _meo   _pur   _meo_pur
+7              6         _meow  _pur   _meow_pur
+8              7         _meow  _purr  _meow_purr
+
+SHOWING WORK:
+Loop Count 1: 0 % 2 = 0
+Loop Count 2: 1 % 2 = 1 
+              S2 = '_' + 'p' = _p
+Loop Count 3: 2 % 2 = 0
+              S1 = 'm' + 'e' = _me
+Loop Count 4: 3 % 2 = 1
+              S2 = 'p' + 'u' = _pu
+Loop Count 5: 4 % 2 = 0
+              S1 = '_me' + 'o' = _meo
+Loop Count 6: 5 % 2 = 1
+              S2 = '_pu' + 'r' = _pur
+Loop Count 7: 6 % 2 = 0
+              S1 = '_meo' + 'w' = _meow
+Loop Count 8: 7 % 2 = 1
+              S2 = '_pur' + 'r' = _purr
+
+S1 + S2 = _meow_purr
