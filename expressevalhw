@@ -71,7 +71,7 @@ true because 10 == 10.0, and 2.0 == 2
 false because 10 * 5 = 50 divided by 2 is 25, and 10 * (2.5) is 25 so they are equal, one is not greater or less than the other.
 
 2 * 2 ** 3 == (2 * 2) ** 3
-false
+false because you do the () first and then the exponent (PEMDAS), they do not equal each other
 
 (10 - 4) < +6 || -(2 * -4) > 0
 true
