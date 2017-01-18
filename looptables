@@ -72,18 +72,18 @@ Loop Count     Index     S1     S2     Output
 SHOWING WORK:
 Loop Count 1: 0 % 2 = 0
 Loop Count 2: 1 % 2 = 1 
-              S2 = '_' + 'p' = _p
+              S2 = '' + 'p' = p
 Loop Count 3: 2 % 2 = 0
-              S1 = 'm' + 'e' = _me
+              S1 = 'm' + 'e' = me
 Loop Count 4: 3 % 2 = 1
-              S2 = 'p' + 'u' = _pu
+              S2 = 'p' + 'u' = pu
 Loop Count 5: 4 % 2 = 0
-              S1 = '_me' + 'o' = _meo
+              S1 = 'me' + 'o' = meo
 Loop Count 6: 5 % 2 = 1
-              S2 = '_pu' + 'r' = _pur
+              S2 = 'pu' + 'r' = pur
 Loop Count 7: 6 % 2 = 0
-              S1 = '_meo' + 'w' = _meow
+              S1 = 'meo' + 'w' = meow
 Loop Count 8: 7 % 2 = 1
-              S2 = '_pur' + 'r' = _purr
+              S2 = 'pur' + 'r' = purr
 
-S1 + S2 = _meow_purr
+S1 + S2 = meowpurr
