@@ -62,7 +62,7 @@ true
 true
 
 10 % 3 == 10.0 % 3
-true because 10 == 10.0
+true because 10 = 10.0
 
 10 * (5 / 2.0) == 10.0 * (5 / 2)
 true because 10 == 10.0, and 2.0 == 2
@@ -74,4 +74,4 @@ false because 10 * 5 = 50 divided by 2 is 25, and 10 * (2.5) is 25 so they are e
 false because you do the () first and then the exponent (PEMDAS), they do not equal each other
 
 (10 - 4) < +6 || -(2 * -4) > 0
-true
+true because (10 - 4) == 6 and -(2 * -4) == 8
