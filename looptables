@@ -60,14 +60,14 @@ console.log(s1+s2);
 
 
 Loop Count     Index     S1     S2     Output
-1              0         m      ''     _m
-2              1         m      _p     m_p  (work shown for modulo calcs at bottom)
-3              2         _me    _p     _me_p
-4              3         _me    _pu    _me_pu
-5              4         _meo   _pu    _meo_pu
-6              5         _meo   _pur   _meo_pur
-7              6         _meow  _pur   _meow_pur
-8              7         _meow  _purr  _meow_purr
+1              0         m      ''     m
+2              1         m      p     mp  (work shown for modulo calcs at bottom)
+3              2         me    p     mep
+4              3         me    pu    mepu
+5              4         meo   pu    meopu
+6              5         meo   pur   meopur
+7              6         meow  pur   meowpur
+8              7         meow  purr  meowpurr
 
 SHOWING WORK:
 Loop Count 1: 0 % 2 = 0
