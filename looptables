@@ -43,7 +43,9 @@ x = 6
 2 * 6 + 7
 2 * 6 = 12
 12 + 7
+= 19
 
+etc
 
 
 2) Create a loop table and show the values for loop count, value of index, value of s1, value of s2, and output during each iteration.
