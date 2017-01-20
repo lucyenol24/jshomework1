@@ -11,6 +11,11 @@ Loop Count     Value of X     Output
 2              2              11
 3              4              15
 4              6              19
+5              8              23
+6              10             27
+7              12             31
+8              14             35 
+9              16             39
 
 SHOWING MY WORK:
 x = 0
